@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import Header from './components/Header.jsx'
+import OctoCats from './components/OctoCats.jsx'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <main>
+        <Header />
+        <OctoCats />
+      </main>
+    )
   }
 }
 
